@@ -15,3 +15,14 @@ git push -u origin main
 
 npm install yarn -g
 yarn install
+
+**git branch -a**
+查看所有分支
+git branch -r
+
+输入git remote add origin github代码仓库的url地址，将代码仓库与github关联
+
+**提交git**
+* git add .
+* git commit -m "commit信息"
+* git push -u origin master
